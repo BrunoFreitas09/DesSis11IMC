@@ -17,7 +17,7 @@ namespace DesSis11EX2
             int obesos = 0;
             int sauda = 0;
 
-            for (int i = 0; i <= 5; i++)
+            for (int i = 0; i <= 4; i++)
             {
                 Console.WriteLine("Digite o seu nome: ");
                 nome[i] = Console.ReadLine();
@@ -67,7 +67,7 @@ namespace DesSis11EX2
             double PorSauda = 0;
             PorObesos = 100*(obesos / 5);
             PorSauda = 100 * (sauda / 5);
-            for (int j = 0; j <= 5; j++)
+            for (int j = 0; j <= 4; j++)
             {
                 Console.WriteLine("O nome " + nome[j] +"Está com um IMC de: " + imc[j] );
 
